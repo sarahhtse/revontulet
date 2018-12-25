@@ -185,6 +185,8 @@ line-height:100%;
 font-size: 1.2em;
 }
 
+
+
 /*---------------------------------
 	LAYOUT
 -----------------------------------*/
@@ -264,16 +266,20 @@ display:block;
 
 body, html {
   height: 100%;
+  width:  100%;
+  margin:auto;
+  padding:0;
+
 }
 
-.parallax {
-  /* The image used */
-  background-image: url('vincent-guth-388555-unsplash.jpg');
+.parallax{
+	/* The image used */
+  background-image: url('background.jpg');
 
   /* Full height */
   height: 100%; 
 
-  /* Create the parallax scrolling effect */
+  /* Create the parallax scrolling effect*/
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
